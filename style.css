@@ -1,0 +1,101 @@
+
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Main Header - ID Selector */
+#main-header {
+    background-color: #1e3a5f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#main-header h1 {
+    margin-bottom: 10px;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+/* Add Expense - Class Selector */
+.expense-form {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.expense-form h2 {
+    color: #1e3a5f;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Button */
+button {
+    background-color: #198754;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Your Expenses - ID Selector */
+#expenses-list {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#expenses-list h2 {
+    color: #1e3a5f;
+}
+
+/* Empty Message */
+.empty-message {
+    color: #777;
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f6f9;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #666;
+}
